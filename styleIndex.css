@@ -1,0 +1,56 @@
+nav{
+    height:6000px;
+    width: 200px;
+    float: left;
+    padding: 5px; 
+    line-height: 30px;
+    font-size:x-large;
+}
+
+nav a:hover{
+    background-color: rgba(254, 254, 255, 0.6);
+    color:black;
+}
+
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(181, 212, 207);
+   margin: 0;
+   padding: 0;
+}
+
+h1{
+   background-color: rgb(77, 105, 91);
+   color: rgb(196, 198, 201);
+   padding: 20px; 
+}
+
+p{
+    color: rgb(71, 89, 187);
+    font-size: x-large;
+}
+
+footer{ 
+    text-align: center;
+    margin: 200px; 
+    font-size:large;
+}
+#memeImage{
+    margin-right: 200px; 
+    animation-duration: 3s;
+    animation-name: moving;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving{
+    from{
+        margin-right: 100px;
+
+    }
+    to{
+        margin-right: 300px;
+
+    }
+}
